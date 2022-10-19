@@ -13,10 +13,10 @@ const pintarAlumnos = (nombre, materia, calificacion1, calificacion2, calificaci
 
 	document.querySelector('#lista').innerHTML += `
 		<tr>
-			<td>${nombre}</td>
-			<td>${materia}</td>
-			<td>${promedio}</td>
-			<td class="${aprobado ? 'aprobado' : 'reprobado'}">${aprobado ? 'aprobado' : 'reprobado'}</td>
+			<td class="tabla__td">${nombre}</td>
+			<td class="tabla__td">${materia}</td>
+			<td class="tabla__td">${promedio}</td>
+			<td class="tabla__td ${aprobado ? 'aprobado' : 'reprobado'}">${aprobado ? 'aprobado' : 'reprobado'}</td>
 		</tr>
 	`
 }

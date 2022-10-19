@@ -12,4 +12,165 @@
 	color: red
 }
 
+.formulario{
+	border: solid 1px grey;
+	border-radius: 8px;
+	width: 80%;
+	height: 80vh;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	margin: 50px auto;
+	padding: 50px 40px;
+}
 
+.formulario__titulo{
+	font-size: 3vw;
+	padding: -10 0 20px 0;
+
+}
+
+.cuadro{
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+	grid-template-rows: 3fr;
+}
+
+.cuadro__nombre{
+	grid-column-start: 1;
+	grid-column-end: 3;
+	font-size: 2vw;
+	border: none;
+	border-bottom: 1px solid black;
+	outline: none;
+	margin: 2vw;
+}
+.cuadro__nombre:focus{
+	border-bottom: 1px solid rgb(6 182 212);
+}
+
+.cuadro__materia{
+	grid-column-start: 3;
+	grid-column-end: 5;
+	font-size: 2vw;
+	padding: 10px;
+	border: none;
+	border-bottom: 1px solid black;
+	outline: none;
+	margin: 2vw;
+}
+.cuadro__materia:focus{
+	border-bottom: 1px solid rgb(6 182 212);
+}
+
+.cuadro__calificaciones{
+	grid-column-start: 1;
+	grid-column-end: 4fr;
+	font-size: 2vw;
+	padding: 10px;
+
+}
+
+.cuadro__calificaciones__cal1{
+	grid-column-start: 1fr;
+	font-size: 1.5vw;
+	padding: 10px;
+	margin: 10px;
+	border: none;
+	border-bottom: 1px solid black;
+	outline: none;
+	margin: 2vw;
+}
+
+.cuadro__calificaciones__cal1:focus{
+	border-bottom: 1px solid rgb(6 182 212);
+}
+
+.cuadro__calificaciones__cal2{
+	grid-column-start: 1fr;
+	font-size: 1.5vw;
+	padding: 10px;
+	margin: 10px;
+	border: none;
+	border-bottom: 1px solid black;
+	outline: none;
+	margin: 2vw;
+}
+
+.cuadro__calificaciones__cal2:focus{
+	border-bottom: 1px solid rgb(6 182 212);
+}
+
+.cuadro__calificaciones__cal3{
+	grid-column-start: 1fr;
+	font-size: 1.5vw;
+	padding: 10px;
+	margin: 10px;
+	border: none;
+	border-bottom: 1px solid black;
+	outline: none;
+	margin: 2vw;
+}
+
+.cuadro__calificaciones__cal3:focus{
+	border-bottom: 1px solid rgb(6 182 212);
+}
+
+.cuadro__calificaciones__cal4{
+	grid-column-start: 1fr;
+	font-size: 1.5vw;
+	padding: 10px;
+	margin: 10px;
+	border: none;
+	border-bottom: 1px solid black;
+	outline: none;
+	margin: 2vw;
+}
+
+.cuadro__calificaciones__cal4:focus{
+	border-bottom: 1px solid rgb(6 182 212);
+}
+
+.cuadro__btn{
+	grid-row-start: 3;
+	grid-column-start: 2;
+	grid-column-end: 4;
+	font-size: 2vw;
+	padding: 1.5vh 4vw;
+	margin: 2vh;
+	border-radius: 8px;
+	border: none;
+	background: rgb(6 182 212);
+	color: white;
+}
+
+.tabla {
+	width: 100%;
+	
+}
+
+.tabla__dist{
+	display: flex;
+	justify-content: space-around;
+}
+
+.tabla__th{
+	font-size: 2vw;
+	padding: 2vh 6vw;
+	margin: 2vw ;
+}
+.tabla__td{
+	font-size: 2vw;
+	padding: 2vh 6vw;
+	margin: 2vw ;
+}
+
+
+
+
+.footer{
+	justify-content: center;
+	text-align: center;
+	font-size: 2vw;
+	padding: 0 0 10px 0;
+}
