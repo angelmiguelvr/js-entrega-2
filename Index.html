@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Calificacion</title>
+    
+</head>
+
+
+<body>
+    
+   <main>
+
+    <div class="formulario">
+        <h1 class="formulario">Promedio de alumnos</h1>
+
+        <form action="#" id="formulario">
+            <input type="text" class="formulario--input" placeholder="Nombre de alumno" id="nombre" minlength="3" required>
+
+            <select name="materia" id="materia" required>
+                <option value="" selected disabled>Escoger una materia</option>
+                <option value="matematicas">Matematicas</option>
+                <option value="ingles">Ingles</option>
+                <option value="computacion">Computación</option>
+            </select>
+
+            <input type="number" id="calificacion1" name="calificacion1" min="1" max="10" placeholder="calificion 1" required>
+            <input type="number" id="calificacion2" name="calificacion2" min="1" max="10" placeholder="calificion 2" required>
+            <input type="number" id="calificacion3" name="calificacion3" min="1" max="10" placeholder="calificion 3" required>
+            <input type="number" id="calificacion4" name="calificacion4" min="1" max="10" placeholder="calificion 4" required>
+
+
+            <button type="submit">Agregar</button>
+            
+        </form>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>Nombre</th>
+                    <th>Materia</th>
+                    <th>Promedio</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+
+            <tbody id="lista">
+            </tbody>
+        </table>
+    </div>
+
+</main>
+
+<script src="js/javascript.js"></script>
+
+</body>
+</html>
